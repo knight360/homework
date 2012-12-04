@@ -20,7 +20,7 @@ static struct {
 static MNode class_AddToList(MNode list, MNode item) {
 	ENTER;
   item->next = list;
-  RETURN(item);
+  RETURN(item) ;
 }
 
 static MNode class_RemoveFromList(MNode list,MNode item) {
