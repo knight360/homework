@@ -3,7 +3,6 @@
 #include <string.h>
 #include <limits.h>
 #include <debug.h>
-
 #include "cma.h"
 
 #define ITEMNOTFOUND ((void *)-1)
